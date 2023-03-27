@@ -1,0 +1,28 @@
+.img {
+    width: 286px;
+    height: 286px;
+    padding-left: 7px;
+    padding-top: 8px;
+    padding-bottom: 12px;
+    border-radius: 8px;
+}
+
+.products {
+    width: 300px;
+    height: 508px;
+    margin-left: 111px;
+    margin-top: 208px;
+    border: 1px solid #95A0A7;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+
+}
+.products-info{
+    padding-left: 8px;
+}
+.cart-btn{
+    background-color: burlywood;
+    padding: 15px;
+}

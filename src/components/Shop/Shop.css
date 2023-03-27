@@ -1,0 +1,30 @@
+.shop-container{
+    /*display flex করলে দুইটা সমান্তরালে চলে যায় 
+    কিন্তু কোন একটা ছোট অথবা বড় করতে গেলে ভেজাল হয়ে যায় 
+    এখানে তাই grid এর ব্যবহার করতে হবে। 
+     */
+    display: grid;
+    /* grid-template-columns এ এখানে repeat দেয়া যাবে না
+     কারণ repeat দেয়া অর্থ হচ্ছে একই সাইজের অনেক গুলো 
+     আলাদা আলাদা ভাবে রিপিট হওয়া,তাই আংশিকভাবে দিতে হবে 
+ */
+    grid-template-columns: 4fr 1fr ;
+}
+.product-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+.cart-container{
+    background-color: burlywood;
+    width: 264px ;
+    margin-left: 30px;
+}
+.order-info{
+    padding: 12px;
+}
+.order-btn{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
