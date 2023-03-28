@@ -15,11 +15,7 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 50px;
 }
-.cart-container{
-    background-color: burlywood;
-    width: 264px ;
-    margin-left: 30px;
-}
+
 .order-info{
     padding: 12px;
 }
